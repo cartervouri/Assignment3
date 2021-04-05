@@ -1,0 +1,15 @@
+.carousel img{
+   width: auto;
+ height: 245px;
+ max-height: 245px;
+ margin: auto; 
+ display: block;
+}
+
+
+.hockeyteam {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

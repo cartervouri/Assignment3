@@ -1,0 +1,118 @@
+
+header, footer {
+    background-color: var(--header-footer-button-color);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+
+header {
+    color: var(--header-footer-button-text-color); 
+}
+
+footer {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+h1 {
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+/* links colors and different hovering colors/options */ 
+.mlink:hover {
+    background-color: var(--link-hover-color);
+}
+
+.mlink:link {
+    padding: 0.8em;
+}
+
+.mlink:link, .flink:link {
+    color: var(--unvisited-link);
+}
+
+.mlink:visited, .flink:visited {
+    color: var(--visited-link);
+}
+
+.flink:hover {
+    background-color: var(--link-hover-color);
+}
+
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--header-footer-button-text-color);
+}
+
+
+/* Submission buttons for contact page */ 
+.submitButton:hover, .submition:focus {
+    color: var(--header-footer-button-text-color);
+    background-color: var(--header-footer-button-color);
+}
+
+.submitButton{
+    padding: 10px 40px;
+    margin: 1px;
+    border: 2pt solid var(--header-footer-button-color);
+    font-size: 25px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+input:not(.submition), textarea {
+    width: 80%;
+}
+
+form fieldset {
+    text-align: center;
+}
+
+
+/* table within resume page */ 
+.box {
+    border-bottom: 1pt solid #66fcf1;
+    height: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+td, th {
+    padding: 30px;
+    border-right: 4px solid #66fcf1;
+    border-left: 4px solid#66fcf1;
+}
+
+
+/* Color theme I am using */
+:root {
+    --main-color: black; 
+    --link-hover-color: #45a29e;
+    --header-footer-button-color: #0b0c10;
+    --visited-link: #c5c6c7 ;
+    --unvisited-link: #9BEFF3;
+    --header-footer-button-text-color:#66fcf1;
+}
+
+@media only screen and (min-width: 320px) {
+
+    .menu {
+        text-align: center;
+    }
+
+}

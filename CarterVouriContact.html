@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Carter Vouri Contact Me</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Carter Vouri">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/aboutMe.css">
+    <link rel="stylesheet" href="./style/Carter.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+    <header>
+        <li><a href="#AboutSkipLink">Skip To Main Content</a></li>
+        <div class="menu">
+            <h1> Carter Vouri Website</h1>
+            <h1>•Contact Me• </h1>
+            <div id="menu-links">
+                <a href="CarterVouriWebsite.html" class="mlink">•RESUME•</a>
+                <a href="CarterVouriAboutPage.html" class="mlink">•ABOUT ME•</a>
+                <a href="CarterVouriContact.html" class="mlink">•CONTACT ME•</a>
+
+            </div>
+        </div>
+    </header>
+
+
+    <div class="col-xs-12 col-md-6 col-md-6 col-md-6 col-md-6 col-xs-12 col-centered pt-3 box">
+        <ul id="AboutSkipLink"> </ul>
+        <form action="mailto:email@cvour855@mtroyal.ca" method="POST">
+            <fieldset>
+                <legend>
+                    <h2>Contact Me</h2>
+                </legend>
+
+                <label for="name">(required) Name: </label><br>
+                <input type="text" name="name" maxlength="30" placeholder="First & Last Name" required><br>
+                <div> ex.John Doe </div><br>
+
+                <label for="email">(required) Email: </label><br>
+                <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email"
+                    required>
+                <div>ex. cvour855@mtroyal.ca</div><br>
+
+                <label for="phonenumber">(required) Telephone Number: </label><br>
+                <input type="text" name="telephone number" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}"
+                    placeholder="Phone Number" required>
+                <div>ex. 587-111-2222</div><br>
+
+                <label for="information">Extra Information: </label><br>
+                <textarea name="information" rows="15" cols="42" placeholder="Information"></textarea><br>
+
+                <span>
+                    <input class="submitButton" type="submit" value="Submit">
+                    <input class="submitButton" type="reset" value="Clear">
+                </span>
+            </fieldset>
+        </form>
+    </div>
+    </div>
+    <footer>
+        <div class="bottom">
+            <a href="CarterVouriWebsite.html" class="flink">Resume</a>&nbsp; |
+            &nbsp;<a href="CarterVouriAboutPage.html" class="flink">About Me</a>&nbsp; |
+            &nbsp;<a href="CarterVouriContact.html" class="flink"> Contact Me</a>
+        </div>
+
+        <div class="bottom">
+            <p><em>Copyright &copy; 2021 Carter Vouri Resume/Website</em></p>
+        </div>
+    </footer>
+</body>
+
+</html>
