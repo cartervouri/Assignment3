@@ -1,4 +1,24 @@
 
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+list-style-type: none;
+}
+ 
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
+
+
+
 header, footer {
     background-color: var(--header-footer-button-color);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
